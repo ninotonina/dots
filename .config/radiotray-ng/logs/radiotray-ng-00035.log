@@ -1,7 +1,0 @@
-[2019-06-08 00:06:31.775304] [0x00007f0dc87845c0] [info ] (main.cpp:246) - radiotray-ng (v0.2.5-unknown) starting up
-[2019-06-08 00:06:31.775476] [0x00007f0dc87845c0] [info ] (main.cpp:248) - radiotray-ng/0.2.5 (Linux x86_64; Arch/rolling (n/a))
-[2019-06-08 00:06:31.775539] [0x00007f0dc87845c0] [debug] (config.cpp:29) - loading: /home/tony/.config/radiotray-ng/radiotray-ng.json
-[2019-06-08 00:06:31.775658] [0x00007f0dc87845c0] [info ] (main.cpp:90) - debug logging disabled
-[2019-06-08 00:06:31.775715] [0x00007f0dc87845c0] [info ] (player.cpp:31) - starting gstreamer
-[2019-06-08 00:06:41.076764] [0x00007f0dc87845c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
-[2019-06-08 00:06:43.584999] [0x00007f0dc87845c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
