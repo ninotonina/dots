@@ -1,0 +1,10 @@
+[2019-06-05 15:43:53.932828] [0x00007ff4b2fa35c0] [info ] (main.cpp:246) - radiotray-ng (v0.2.5-unknown) starting up
+[2019-06-05 15:43:53.934334] [0x00007ff4b2fa35c0] [info ] (main.cpp:248) - radiotray-ng/0.2.5 (Linux x86_64; Arch/rolling (n/a))
+[2019-06-05 15:43:53.934477] [0x00007ff4b2fa35c0] [debug] (config.cpp:29) - loading: /home/tony/.config/radiotray-ng/radiotray-ng.json
+[2019-06-05 15:43:53.949310] [0x00007ff4b2fa35c0] [info ] (main.cpp:90) - debug logging disabled
+[2019-06-05 15:43:53.949498] [0x00007ff4b2fa35c0] [info ] (player.cpp:31) - starting gstreamer
+[2019-06-05 15:44:02.470789] [0x00007ff4b2fa35c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
+[2019-06-05 15:44:02.486936] [0x00007ff4b2fa35c0] [error] (playlist_downloader.cpp:158) - curl_easy_perform() failed: Couldn't resolve host name 0
+[2019-06-05 15:44:02.487029] [0x00007ff4b2fa35c0] [error] (playlist_downloader.cpp:75) - Could not download playlist!
+[2019-06-05 15:44:02.487048] [0x00007ff4b2fa35c0] [error] (playlist_downloader.cpp:85) - http_resp_code = 0
+[2019-06-05 15:44:02.487064] [0x00007ff4b2fa35c0] [error] (radiotray_ng.cpp:529) - failed to download playlist: http://somafm.com/indiepop.pls

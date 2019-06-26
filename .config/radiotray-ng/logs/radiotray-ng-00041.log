@@ -1,0 +1,45 @@
+[2019-06-14 19:37:57.837387] [0x00007f6e1ddb75c0] [info ] (main.cpp:246) - radiotray-ng (v0.2.5-unknown) starting up
+[2019-06-14 19:37:57.857827] [0x00007f6e1ddb75c0] [info ] (main.cpp:248) - radiotray-ng/0.2.5 (Linux x86_64; Arch/rolling (n/a))
+[2019-06-14 19:37:57.857927] [0x00007f6e1ddb75c0] [debug] (config.cpp:29) - loading: /home/tony/.config/radiotray-ng/radiotray-ng.json
+[2019-06-14 19:37:57.877591] [0x00007f6e1ddb75c0] [info ] (main.cpp:90) - debug logging disabled
+[2019-06-14 19:37:57.877696] [0x00007f6e1ddb75c0] [info ] (player.cpp:31) - starting gstreamer
+[2019-06-14 19:39:57.633037] [0x00007f6e1ddb75c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
+[2019-06-14 19:39:59.444608] [0x00007f6e1ddb75c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
+[2019-06-14 19:40:56.529472] [0x00007f6dbfc3b700] [error] (player.cpp:177) - buffering timeout, restarting stream...
+[2019-06-14 19:41:01.553790] [0x00007f6e1ddb75c0] [error] (player.cpp:201) - error received from element source: Could not resolve server name. , 5,037:3
+[2019-06-14 19:41:01.553883] [0x00007f6e1ddb75c0] [error] (player.cpp:204) - debugging information: ../gst-plugins-good/ext/soup/gstsouphttpsrc.c(1372): gst_soup_http_src_parse_status (): /GstPlayBin3:player/GstURIDecodeBin3:uridecodebin3-1/GstURISourceBin:urisourcebin1/GstSoupHTTPSrc:source:
+Error resolving “ice2.somafm.com”: Temporary failure in name resolution (2), URL: http://ice2.somafm.com/indiepop-128-mp3, Redirect to: (NULL)
+[2019-06-14 19:41:01.563814] [0x00007f6e1ddb75c0] [error] (player.cpp:201) - error received from element source: Could not resolve server name. , 5,037:3
+[2019-06-14 19:41:01.563919] [0x00007f6e1ddb75c0] [error] (player.cpp:204) - debugging information: ../gst-plugins-good/ext/soup/gstsouphttpsrc.c(1372): gst_soup_http_src_parse_status (): /GstPlayBin3:player/GstURIDecodeBin3:uridecodebin3-2/GstURISourceBin:urisourcebin2/GstSoupHTTPSrc:source:
+Error resolving “ice4.somafm.com”: Temporary failure in name resolution (2), URL: http://ice4.somafm.com/indiepop-128-mp3, Redirect to: (NULL)
+[2019-06-14 19:41:01.571212] [0x00007f6e1ddb75c0] [error] (player.cpp:201) - error received from element source: Could not resolve server name. , 5,037:3
+[2019-06-14 19:41:01.571280] [0x00007f6e1ddb75c0] [error] (player.cpp:204) - debugging information: ../gst-plugins-good/ext/soup/gstsouphttpsrc.c(1372): gst_soup_http_src_parse_status (): /GstPlayBin3:player/GstURIDecodeBin3:uridecodebin3-3/GstURISourceBin:urisourcebin3/GstSoupHTTPSrc:source:
+Error resolving “ice1.somafm.com”: Temporary failure in name resolution (2), URL: http://ice1.somafm.com/indiepop-128-mp3, Redirect to: (NULL)
+[2019-06-14 19:41:01.571996] [0x00007f6e1ddb75c0] [info ] (player.cpp:76) - playlist is empty
+[2019-06-14 19:41:26.472229] [0x00007f6e1ddb75c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
+[2019-06-14 19:41:29.470369] [0x00007f6e1ddb75c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
+[2019-06-14 19:42:06.246684] [0x00007f6dbfc3b700] [error] (player.cpp:177) - buffering timeout, restarting stream...
+[2019-06-14 19:42:20.170356] [0x00007f6e1ddb75c0] [info ] (player.cpp:306) - canceling outstanding clock request
+[2019-06-14 19:42:24.943453] [0x00007f6e1ddb75c0] [info ] (player.cpp:306) - canceling outstanding clock request
+[2019-06-14 19:42:34.946751] [0x00007f6dbfc3b700] [error] (player.cpp:177) - buffering timeout, restarting stream...
+[2019-06-14 19:42:34.965768] [0x00007f6e1ddb75c0] [error] (player.cpp:201) - error received from element source: Could not resolve server name. , 5,037:3
+[2019-06-14 19:42:34.965863] [0x00007f6e1ddb75c0] [error] (player.cpp:204) - debugging information: ../gst-plugins-good/ext/soup/gstsouphttpsrc.c(1372): gst_soup_http_src_parse_status (): /GstPlayBin3:player/GstURIDecodeBin3:uridecodebin3-6/GstURISourceBin:urisourcebin6/GstSoupHTTPSrc:source:
+Error resolving “ice2.somafm.com”: Temporary failure in name resolution (2), URL: http://ice2.somafm.com/indiepop-128-mp3, Redirect to: (NULL)
+[2019-06-14 19:42:34.975666] [0x00007f6e1ddb75c0] [error] (player.cpp:201) - error received from element source: Could not resolve server name. , 5,037:3
+[2019-06-14 19:42:34.975844] [0x00007f6e1ddb75c0] [error] (player.cpp:204) - debugging information: ../gst-plugins-good/ext/soup/gstsouphttpsrc.c(1372): gst_soup_http_src_parse_status (): /GstPlayBin3:player/GstURIDecodeBin3:uridecodebin3-7/GstURISourceBin:urisourcebin7/GstSoupHTTPSrc:source:
+Error resolving “ice4.somafm.com”: Temporary failure in name resolution (2), URL: http://ice4.somafm.com/indiepop-128-mp3, Redirect to: (NULL)
+[2019-06-14 19:42:34.985079] [0x00007f6e1ddb75c0] [error] (player.cpp:201) - error received from element source: Could not resolve server name. , 5,037:3
+[2019-06-14 19:42:34.985149] [0x00007f6e1ddb75c0] [error] (player.cpp:204) - debugging information: ../gst-plugins-good/ext/soup/gstsouphttpsrc.c(1372): gst_soup_http_src_parse_status (): /GstPlayBin3:player/GstURIDecodeBin3:uridecodebin3-8/GstURISourceBin:urisourcebin8/GstSoupHTTPSrc:source:
+Error resolving “ice1.somafm.com”: Temporary failure in name resolution (2), URL: http://ice1.somafm.com/indiepop-128-mp3, Redirect to: (NULL)
+[2019-06-14 19:42:34.986122] [0x00007f6e1ddb75c0] [info ] (player.cpp:76) - playlist is empty
+[2019-06-14 19:42:45.333020] [0x00007f6e1ddb75c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
+[2019-06-14 19:42:47.069884] [0x00007f6e1ddb75c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
+[2019-06-14 20:21:09.650141] [0x00007f6e1ddb75c0] [info ] (radiotray_ng.cpp:497) - downloading: Chill, Lounge Radio, http://www.lounge-radio.com/listen128.m3u
+[2019-06-14 20:21:11.703201] [0x00007f6e1ddb75c0] [info ] (playlist_downloader.cpp:96) - decoder: M3U, audio/x-mpegurl
+[2019-06-14 20:24:21.593235] [0x00007f6e1ddb75c0] [info ] (radiotray_ng.cpp:497) - downloading: Techno / Electronic, DubStep Beyond, http://somafm.com/play/dubstep32
+[2019-06-14 20:24:24.577859] [0x00007f6e1ddb75c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
+[2019-06-14 20:25:13.197711] [0x00007f6e1ddb75c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
+[2019-06-14 20:25:14.074082] [0x00007f6e1ddb75c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
+[2019-06-14 21:20:20.660561] [0x00007f6e1ddb75c0] [info ] (radiotray_ng.cpp:57) - stopping player
+[2019-06-14 21:20:28.498521] [0x00007f6e1ddb75c0] [info ] (main.cpp:289) - radiotray-ng shutting down
+[2019-06-14 21:20:28.516609] [0x00007f6e1ddb75c0] [info ] (player.cpp:39) - stopping gstreamer

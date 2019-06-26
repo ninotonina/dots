@@ -1,0 +1,16 @@
+[2019-04-28 14:40:24.798854] [0x00007f1bc68dd5c0] [info ] (main.cpp:246) - radiotray-ng (v0.2.5-unknown) starting up
+[2019-04-28 14:40:24.799875] [0x00007f1bc68dd5c0] [info ] (main.cpp:248) - radiotray-ng/0.2.5 (Linux x86_64; Arch/rolling (n/a))
+[2019-04-28 14:40:24.800008] [0x00007f1bc68dd5c0] [debug] (config.cpp:29) - loading: /home/tony/.config/radiotray-ng/radiotray-ng.json
+[2019-04-28 14:40:24.816585] [0x00007f1bc68dd5c0] [info ] (main.cpp:90) - debug logging disabled
+[2019-04-28 14:40:24.816746] [0x00007f1bc68dd5c0] [info ] (player.cpp:31) - starting gstreamer
+[2019-04-28 14:40:31.962513] [0x00007f1bc68dd5c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
+[2019-04-28 14:40:33.702830] [0x00007f1bc68dd5c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
+[2019-04-28 14:40:54.786176] [0x00007f1bc68dd5c0] [info ] (radiotray_ng.cpp:57) - stopping player
+[2019-04-28 14:41:15.355068] [0x00007f1bc68dd5c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
+[2019-04-28 14:41:16.021841] [0x00007f1bc68dd5c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
+[2019-04-28 14:44:02.998872] [0x00007f1bc68dd5c0] [info ] (radiotray_ng.cpp:57) - stopping player
+[2019-04-28 14:46:45.349786] [0x00007f1bc68dd5c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
+[2019-04-28 14:46:46.038302] [0x00007f1bc68dd5c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
+[2019-04-28 14:54:50.388525] [0x00007f1bc68dd5c0] [info ] (radiotray_ng.cpp:57) - stopping player
+[2019-04-28 14:54:54.529485] [0x00007f1bc68dd5c0] [info ] (main.cpp:289) - radiotray-ng shutting down
+[2019-04-28 14:54:54.536618] [0x00007f1bc68dd5c0] [info ] (player.cpp:39) - stopping gstreamer

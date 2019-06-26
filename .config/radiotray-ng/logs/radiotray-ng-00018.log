@@ -1,0 +1,16 @@
+[2019-05-25 11:48:12.375385] [0x00007f12a16485c0] [info ] (main.cpp:246) - radiotray-ng (v0.2.5-unknown) starting up
+[2019-05-25 11:48:12.384146] [0x00007f12a16485c0] [info ] (main.cpp:248) - radiotray-ng/0.2.5 (Linux x86_64; Arch/rolling (n/a))
+[2019-05-25 11:48:12.384189] [0x00007f12a16485c0] [debug] (config.cpp:29) - loading: /home/tony/.config/radiotray-ng/radiotray-ng.json
+[2019-05-25 11:48:12.405286] [0x00007f12a16485c0] [info ] (main.cpp:90) - debug logging disabled
+[2019-05-25 11:48:12.405354] [0x00007f12a16485c0] [info ] (player.cpp:31) - starting gstreamer
+[2019-05-25 11:48:24.251211] [0x00007f12a16485c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
+[2019-05-25 11:48:26.218404] [0x00007f12a16485c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
+[2019-05-25 11:50:29.323372] [0x00007f12a16485c0] [info ] (player.cpp:306) - canceling outstanding clock request
+[2019-05-25 11:50:37.662158] [0x00007f12a16485c0] [info ] (player.cpp:306) - canceling outstanding clock request
+[2019-05-25 11:51:03.321499] [0x00007f12a16485c0] [info ] (player.cpp:306) - canceling outstanding clock request
+[2019-05-25 11:51:24.736796] [0x00007f12a16485c0] [info ] (player.cpp:306) - canceling outstanding clock request
+[2019-05-25 11:51:34.745816] [0x00007f1261e51700] [error] (player.cpp:177) - buffering timeout, restarting stream...
+[2019-05-25 11:52:25.014539] [0x00007f1261e51700] [error] (player.cpp:177) - buffering timeout, restarting stream...
+[2019-05-25 11:52:35.042157] [0x00007f12a16485c0] [error] (player.cpp:201) - error received from element source: Could not resolve server name. , 5,035:3
+[2019-05-25 11:52:35.042372] [0x00007f12a16485c0] [error] (player.cpp:204) - debugging information: ../gst-plugins-good/ext/soup/gstsouphttpsrc.c(1372): gst_soup_http_src_parse_status (): /GstPlayBin3:player/GstURIDecodeBin3:uridecodebin3-2/GstURISourceBin:urisourcebin2/GstSoupHTTPSrc:source:
+Error resolving “ice4.somafm.com”: Temporary failure in name resolution (2), URL: http://ice4.somafm.com/indiepop-128-mp3, Redirect to: (NULL)

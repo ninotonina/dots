@@ -1,0 +1,18 @@
+[2019-06-16 18:16:01.054610] [0x00007fde6a14b5c0] [info ] (main.cpp:246) - radiotray-ng (v0.2.5-unknown) starting up
+[2019-06-16 18:16:01.062069] [0x00007fde6a14b5c0] [info ] (main.cpp:248) - radiotray-ng/0.2.5 (Linux x86_64; Arch/rolling (n/a))
+[2019-06-16 18:16:01.062177] [0x00007fde6a14b5c0] [debug] (config.cpp:29) - loading: /home/tony/.config/radiotray-ng/radiotray-ng.json
+[2019-06-16 18:16:01.070985] [0x00007fde6a14b5c0] [info ] (main.cpp:90) - debug logging disabled
+[2019-06-16 18:16:01.071108] [0x00007fde6a14b5c0] [info ] (player.cpp:31) - starting gstreamer
+[2019-06-16 18:17:02.030457] [0x00007fde6a14b5c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
+[2019-06-16 18:17:03.222215] [0x00007fde6a14b5c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
+[2019-06-16 18:20:54.838081] [0x00007fde6a14b5c0] [error] (player.cpp:201) - error received from element source: Server does not support seeking. , 5,037:11
+[2019-06-16 18:20:54.838248] [0x00007fde6a14b5c0] [error] (player.cpp:204) - debugging information: ../gst-plugins-good/ext/soup/gstsouphttpsrc.c(1621): gst_soup_http_src_do_request (): /GstPlayBin3:player/GstURIDecodeBin3:uridecodebin3-0/GstURISourceBin:urisourcebin0/GstSoupHTTPSrc:source:
+Server does not accept Range HTTP header, URL: http://ice2.somafm.com/indiepop-128-mp3, Redirect to: (NULL)
+[2019-06-16 18:20:54.846579] [0x00007fde6a14b5c0] [error] (player.cpp:211) - dropped connection, restarting stream...
+[2019-06-16 18:20:56.394569] [0x00007fde6a14b5c0] [info ] (player.cpp:306) - canceling outstanding clock request
+[2019-06-16 18:22:37.485125] [0x00007fde6a14b5c0] [info ] (radiotray_ng.cpp:57) - stopping player
+[2019-06-16 18:22:45.133289] [0x00007fde6a14b5c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
+[2019-06-16 18:22:46.447429] [0x00007fde6a14b5c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
+[2019-06-16 18:22:53.354918] [0x00007fde6a14b5c0] [info ] (player.cpp:306) - canceling outstanding clock request
+[2019-06-16 18:23:00.311249] [0x00007fde6a14b5c0] [info ] (player.cpp:306) - canceling outstanding clock request
+[2019-06-16 18:36:49.422820] [0x00007fde6a14b5c0] [info ] (radiotray_ng.cpp:57) - stopping player

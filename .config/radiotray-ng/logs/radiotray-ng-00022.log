@@ -1,0 +1,23 @@
+[2019-05-26 13:11:40.459006] [0x00007f5f681595c0] [info ] (main.cpp:246) - radiotray-ng (v0.2.5-unknown) starting up
+[2019-05-26 13:11:40.459091] [0x00007f5f681595c0] [info ] (main.cpp:248) - radiotray-ng/0.2.5 (Linux x86_64; Arch/rolling (n/a))
+[2019-05-26 13:11:40.459116] [0x00007f5f681595c0] [debug] (config.cpp:29) - loading: /home/tony/.config/radiotray-ng/radiotray-ng.json
+[2019-05-26 13:11:40.459165] [0x00007f5f681595c0] [info ] (main.cpp:90) - debug logging disabled
+[2019-05-26 13:11:40.459191] [0x00007f5f681595c0] [info ] (player.cpp:31) - starting gstreamer
+[2019-05-26 13:11:42.298511] [0x00007f5f681595c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
+[2019-05-26 13:11:43.565197] [0x00007f5f681595c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
+[2019-05-26 13:26:55.630840] [0x00007f5f0b7fe700] [error] (player.cpp:177) - buffering timeout, restarting stream...
+[2019-05-26 13:27:29.577861] [0x00007f5f681595c0] [info ] (radiotray_ng.cpp:57) - stopping player
+[2019-05-26 13:27:31.694819] [0x00007f5f681595c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
+[2019-05-26 13:27:32.783335] [0x00007f5f681595c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
+[2019-05-26 13:27:39.605889] [0x00007f5f681595c0] [error] (player.cpp:201) - error received from element source: Could not establish connection to server. , 4,924:5
+[2019-05-26 13:27:39.606045] [0x00007f5f681595c0] [error] (player.cpp:204) - debugging information: ../gst-plugins-good/ext/soup/gstsouphttpsrc.c(1377): gst_soup_http_src_parse_status (): /GstPlayBin3:player/GstURIDecodeBin3:uridecodebin3-2/GstURISourceBin:urisourcebin2/GstSoupHTTPSrc:source:
+Could not connect: No route to host (4), URL: http://ice2.somafm.com/indiepop-128-mp3, Redirect to: (NULL)
+[2019-05-26 13:27:44.625544] [0x00007f5f681595c0] [error] (player.cpp:201) - error received from element source: Could not resolve server name. , 4,924:3
+[2019-05-26 13:27:44.625733] [0x00007f5f681595c0] [error] (player.cpp:204) - debugging information: ../gst-plugins-good/ext/soup/gstsouphttpsrc.c(1372): gst_soup_http_src_parse_status (): /GstPlayBin3:player/GstURIDecodeBin3:uridecodebin3-3/GstURISourceBin:urisourcebin3/GstSoupHTTPSrc:source:
+Error resolving “ice4.somafm.com”: Temporary failure in name resolution (2), URL: http://ice4.somafm.com/indiepop-128-mp3, Redirect to: (NULL)
+[2019-05-26 13:27:44.639476] [0x00007f5f681595c0] [error] (player.cpp:201) - error received from element source: Could not resolve server name. , 4,924:3
+[2019-05-26 13:27:44.639532] [0x00007f5f681595c0] [error] (player.cpp:204) - debugging information: ../gst-plugins-good/ext/soup/gstsouphttpsrc.c(1372): gst_soup_http_src_parse_status (): /GstPlayBin3:player/GstURIDecodeBin3:uridecodebin3-4/GstURISourceBin:urisourcebin4/GstSoupHTTPSrc:source:
+Error resolving “ice1.somafm.com”: Temporary failure in name resolution (2), URL: http://ice1.somafm.com/indiepop-128-mp3, Redirect to: (NULL)
+[2019-05-26 13:27:44.640541] [0x00007f5f681595c0] [info ] (player.cpp:76) - playlist is empty
+[2019-05-26 13:27:56.850180] [0x00007f5f681595c0] [info ] (radiotray_ng.cpp:497) - downloading: Pop / Rock, Indie Pop Rocks!, http://somafm.com/indiepop.pls
+[2019-05-26 13:27:57.515562] [0x00007f5f681595c0] [info ] (playlist_downloader.cpp:96) - decoder: PLS, audio/x-scpls
