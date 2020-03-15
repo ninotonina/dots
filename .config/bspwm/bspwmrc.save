@@ -8,7 +8,7 @@ killall udiskie &
 
 # Determine XrandR settings.  Whether an external display is connected
 # to the laptop or not.
-_check bspwm_conf_xrandr && bspwm_conf_xrandr
+~/home/tony/Documents/bspwm_conf_xrandr.sh
 
 
 
@@ -60,11 +60,10 @@ sleep 1 &
 
 #feh --bg-fill ~/.config/wallpaper/7pm.jpg &
 #wal -i /home/tony/.config/variety/Favorites/4925djhlit531.jpg
-#wal -i /home/tony/Documents/anime.jpg
-wal -i /home/tony/feh_025540_000001_5k6b252ozhg41.jpg
+wal -i /home/tony/Documents/anime.jpg
 
 compton -b &
-#nm-applet &
+nm-applet &
 
 dunst &
 
@@ -80,11 +79,8 @@ udiskie --smart-tray &
 
 greenclip daemon &
 
-redshift &
-
 xidlehook --not-when-fullscreen --not-when-audio --timer normal 900 'betterlockscreen -l blur' '' &
 
 xidlehook --timer normal 3600 'betterlockscreen -s blur' '' &
 
-/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
-export $(gnome-keyring-daemon --start)
+#nm-applet &

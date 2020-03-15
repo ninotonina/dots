@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	urxvt
+	tilix
 
 # program launcher
 super + d
@@ -192,32 +192,3 @@ super + ctrl + underscore
 
 super + ctrl + plus
 	~/.config/sxhkd/border_inc.sh
-
-super + shift + f
-	firefox
-
-#########################
-#VARIETY KEYS WITH PYWAL#
-#########################
-
-
-#Wallpaper trash
-alt + shift + t
-    variety -t && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
-
-#Wallpaper next
-alt + shift + n
-    variety -n && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
-
-#Wallpaper previous
-alt + shift + p
-    variety -p && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
-
-#Wallpaper favorite
-alt + shift + f
-    variety -f && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
-
-#Wallpaper update
-alt + shift + u
-    wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
-
